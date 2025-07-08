@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rushkaro.fun/sitemap.xml
