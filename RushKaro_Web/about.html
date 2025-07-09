@@ -358,95 +358,94 @@
       <p>Whether you're a casual gamer or competitive pro, RushKaro is your gateway to real earnings in Indian eSports. Download our app, play daily matches, and earn instantly. No waiting. No scams. Just pure skill and rewards!</p>
     </div>
 
-   <!-- 🔗 Social Media Premium Card Start -->
+   <!-- 🌐 SOCIAL MEDIA ULTRA GLOW CARD START -->
 <style>
-  .social-card {
+  .social-card-glow {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 40px 20px;
-    background: linear-gradient(135deg, #1a1a1a, #111);
-    border-radius: 20px;
-    box-shadow: 0 0 20px #00f2ff88;
-    animation: glow 4s infinite alternate;
-  }
-
-  @keyframes glow {
-    0% { box-shadow: 0 0 10px #ff00ff55; }
-    100% { box-shadow: 0 0 30px #00ffcc88; }
-  }
-
-  .social-btn {
-    width: 200px;
-    height: 60px;
-    background: #0d0d0d;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border: 2px solid transparent;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
-    text-decoration: none;
-    transition: 0.4s ease;
+    gap: 30px;
+    padding: 60px 20px;
+    background: #0f0f0f;
+    border-radius: 20px;
+    box-shadow: 0 0 80px rgba(0, 255, 255, 0.15);
     position: relative;
     overflow: hidden;
   }
 
-  .social-btn i {
+  .social-btn-glow {
+    position: relative;
+    width: 220px;
+    height: 65px;
+    background: #111;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .social-btn-glow::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: conic-gradient(from 0deg, #ff0000, #00ff00, #0000ff, #ff0000);
+    animation: rotateGlow 6s linear infinite;
+    z-index: 0;
+    opacity: 0.6;
+    filter: blur(20px);
+  }
+
+  .social-btn-glow span {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .social-btn-glow i {
     font-size: 22px;
   }
 
-  .social-btn::before {
-    content: '';
-    position: absolute;
-    width: 300%;
-    height: 300%;
-    background: conic-gradient(from 180deg, #00ffe1, #ff00d9, #00ffe1);
-    top: -100%;
-    left: -100%;
-    animation: rotate 4s linear infinite;
-    z-index: 0;
-    opacity: 0.4;
+  .social-btn-glow:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
   }
 
-  .social-btn:hover {
-    transform: scale(1.05);
-    border: 2px solid #fff;
-    color: #fff;
-  }
-
-  .social-btn span {
-    position: relative;
-    z-index: 1;
-  }
-
-  @keyframes rotate {
+  @keyframes rotateGlow {
     0% { transform: rotate(0deg);}
     100% { transform: rotate(360deg);}
   }
 </style>
 
-<!-- 💠 Social Buttons -->
-<div class="social-card">
-  <a href="https://chat.whatsapp.com/Hrk3guLQIn79lwvDeHKHuX" class="social-btn" target="_blank">
+<!-- 🚀 SOCIAL MEDIA BUTTONS -->
+<div class="social-card-glow">
+  <a href="https://chat.whatsapp.com/Hrk3guLQIn79lwvDeHKHuX" class="social-btn-glow" target="_blank">
     <span><i class="fab fa-whatsapp"></i> WhatsApp</span>
   </a>
-  <a href="https://www.instagram.com/rushkaro_official" class="social-btn" target="_blank">
+  <a href="https://instagram.com/rushkaro_official" class="social-btn-glow" target="_blank">
     <span><i class="fab fa-instagram"></i> Instagram</span>
   </a>
-  <a href="https://t.me/rushkaro_official" class="social-btn" target="_blank">
+  <a href="https://t.me/rushkaro_official" class="social-btn-glow" target="_blank">
     <span><i class="fab fa-telegram-plane"></i> Telegram</span>
   </a>
-  <a href="https://youtube.com/@rushkaro" class="social-btn" target="_blank">
+  <a href="https://youtube.com/@rushkaro" class="social-btn-glow" target="_blank">
     <span><i class="fab fa-youtube"></i> YouTube</span>
   </a>
 </div>
 
-<!-- Load Font Awesome (for icons) -->
+<!-- 🔥 Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
