@@ -358,6 +358,98 @@
       <p>Whether you're a casual gamer or competitive pro, RushKaro is your gateway to real earnings in Indian eSports. Download our app, play daily matches, and earn instantly. No waiting. No scams. Just pure skill and rewards!</p>
     </div>
 
+   <!-- 🔗 Social Media Premium Card Start -->
+<style>
+  .social-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1a1a1a, #111);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00f2ff88;
+    animation: glow 4s infinite alternate;
+  }
+
+  @keyframes glow {
+    0% { box-shadow: 0 0 10px #ff00ff55; }
+    100% { box-shadow: 0 0 30px #00ffcc88; }
+  }
+
+  .social-btn {
+    width: 200px;
+    height: 60px;
+    background: #0d0d0d;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .social-btn i {
+    font-size: 22px;
+  }
+
+  .social-btn::before {
+    content: '';
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    background: conic-gradient(from 180deg, #00ffe1, #ff00d9, #00ffe1);
+    top: -100%;
+    left: -100%;
+    animation: rotate 4s linear infinite;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  .social-btn:hover {
+    transform: scale(1.05);
+    border: 2px solid #fff;
+    color: #fff;
+  }
+
+  .social-btn span {
+    position: relative;
+    z-index: 1;
+  }
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+  }
+</style>
+
+<!-- 💠 Social Buttons -->
+<div class="social-card">
+  <a href="https://chat.whatsapp.com/Hrk3guLQIn79lwvDeHKHuX" class="social-btn" target="_blank">
+    <span><i class="fab fa-whatsapp"></i> WhatsApp</span>
+  </a>
+  <a href="https://www.instagram.com/rushkaro_official" class="social-btn" target="_blank">
+    <span><i class="fab fa-instagram"></i> Instagram</span>
+  </a>
+  <a href="https://t.me/rushkaro_official" class="social-btn" target="_blank">
+    <span><i class="fab fa-telegram-plane"></i> Telegram</span>
+  </a>
+  <a href="https://youtube.com/@rushkaro" class="social-btn" target="_blank">
+    <span><i class="fab fa-youtube"></i> YouTube</span>
+  </a>
+</div>
+
+<!-- Load Font Awesome (for icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
     <footer>
       © 2025 RushKaro eSports. Designed for champions. 💫
     </footer>
